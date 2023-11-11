@@ -10,6 +10,7 @@ El siguiente mini curso contempla los siguientes temas:
 
 * Introducción
 * Instalación
+  * Extensiones para VS Code.
 * Tipos base
 * Funciones
 * Clases & Interfaces
@@ -27,7 +28,7 @@ Esto significa que tu código JavaScript en funcionamiento existente también es
 
 Este tutorial proporciona una breve descripción general de TypeScript, centrándose en su sistema de tipos.
 
-## #1 - INSTALACIÓN
+## #2 - INSTALACIÓN
 
 Tener un ambiente de desarrollo para Typescript implica tener instalado los siguientes componentes de software de manera obligatoria:
 
@@ -50,3 +51,20 @@ O si lo prefieres, también puedes instalar de manera local Typescript.
    foo@bar:~$ npm install typescript --save-dev
    foo@bar:~$ npx tsc -version
 ```
+
+### #2.1 - EXTENSIONES PARA VS CODE
+
+Las siguientes extensiones te pueden ser muy útiles para tus futuros desarrollos en TypeScript:
+
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [Office Viewer(Markdown Editor)](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office)
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+# 3 - EJERCICIOS
+
+### # 3.1 - Simple Typescript
+
+### # 3.2 - JS vs TypeScript
