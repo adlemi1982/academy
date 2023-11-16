@@ -1,15 +1,16 @@
 # ACADEMIA - TYPESCIPT 101
 
-Este repositorio está dedicado a comprender más básico elemental de este asombroso lenguaje, de tal suerte que tengas un _quick start_ a este lenguaje y comprendas los conceptos y sentencias básicas.
+Este repositorio está dedicado a comprender lo más básico y elemental de este lenguaje, de tal suerte que tengas un _quick start_ sobre los principales componentes de este lenguaje y logres visualizar su posible uso en diferentes casos de uso.
 
-Ten en cuenta que todo el material depositado en este repositorio es un **_COMPLEMENTO_** y no un riguroso curso. Esto significa que los ejercicios están pensados para que complementes ese conocimiento que tú ya estás revisando por algún otro medio (un curso en línea, un libro, etc.).
+Ten en cuenta que todo el material depositado en este repositorio es un **_COMPLEMENTO_** y no un riguroso curso. Esto significa que los ejercicios están pensados para que complementes ese conocimiento que tú ya estás revisando en algún otro medio (un curso en línea,un libro, etc.).
 
 ## TEMARIO
 
-El siguiente mini curso contempla los siguientes temas:
+El siguiente minicurso contempla los siguientes temas:
 
 * Introducción
 * Instalación
+
   * Extensiones para VS Code.
 * Tipos base
 * Funciones
@@ -26,8 +27,6 @@ TypeScript tiene una relación inusual con JavaScript. TypeScript ofrece todas l
 
 Esto significa que tu código JavaScript en funcionamiento existente también es código TypeScript. El principal beneficio de TypeScript es que puede resaltar comportamientos inesperados en su código, lo que reduce la posibilidad de errores.
 
-Este tutorial proporciona una breve descripción general de TypeScript, centrándose en su sistema de tipos.
-
 ## #2 - INSTALACIÓN
 
 Tener un ambiente de desarrollo para Typescript implica tener instalado los siguientes componentes de software de manera obligatoria:
@@ -42,19 +41,19 @@ Teniendo una vez ambos componentes de software instalados en tu pc, ejecuta los 
 
 ```bash
    foo@bar:~$ npm install -g typescript
-   foo@bar:~$ tsc -version
+   foo@bar:~$ tsc --version
 ```
 
 O si lo prefieres, también puedes instalar de manera local Typescript.
 
 ```bash
    foo@bar:~$ npm install typescript --save-dev
-   foo@bar:~$ npx tsc -version
+   foo@bar:~$ npx tsc --version
 ```
 
 ### #2.1 - EXTENSIONES PARA VS CODE
 
-Las siguientes extensiones te pueden ser muy útiles para tus futuros desarrollos en TypeScript:
+Las siguientes extensiones te pueden servmuy útiles para tus futuros desarrollos en TypeScript:
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
@@ -65,6 +64,33 @@ Las siguientes extensiones te pueden ser muy útiles para tus futuros desarrollo
 
 # 3 - EJERCICIOS
 
+A continuación, se resumen los ejercicios contenidos en este repositorio.
+
+Cada uno de los ejercicios esta pensado para abordar temas específicos y cumplir una serie de objetivos bien definidos.
+
+### ¿Cómo trabajarcon los ejercicios?
+
+Los ejercicios y su código asociado representan el producto final, esto quiere decir que los archivos que ves en la carpeta ya están resueltos.
+
+La idea principal es que, a tu ritmo y entendimiento proppio, puedas seguir paso a paso las instrucciones que se detallan cada uno de los archivos **README.md** que se encuentran en cada una de las carpetas de los ejercicios. Esto con el fin de que puedas ir analizando y replicando cada una de las problemáticas que en estos se plantean. 
+
+Se recomienda que **NO TRABAJES SOBRE ESTOS EJERCICIOS**, si no en otra carpeta de tu equipo para tengas tu propio espacio y libremente puedas replicar los ejercicios propuestos.
+
+A continuación se resumen los ejercicios de este repositorio.
+
 ### # 3.1 - Simple Typescript
 
+En este ejercicio se ejemplifica el uso de TypeScript en un proyecto simple de HTML5.
+
+Se deben cumplir los siguientes objetivos:
+
+* Entender los comandos básicos de la consola de TypeScript.
+
 ### # 3.2 - JS vs TypeScript
+
+En este ejercicio se introducen los tipos base de TypeScript y se hacen visibles los beneficios de este lenguje sobre su predecesor _Java Script_ (no significa que ya este deprecado).
+
+Se deben cumplir los siguientes objetivos:
+
+* Entender las principales razones por la cual TypeScript tiene una ventaja sobre JS nativo.
+* Entender los tipos de datos básicos que utiliza TypeScript y la sintaxis esencial.
