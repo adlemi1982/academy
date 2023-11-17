@@ -106,7 +106,7 @@ Paso 6:  Abre las herramientas de desarrollador en tu explorador `CTLR + SHIT + 
 
 Paso 7: Intenta sumar dos números y observa el resultado en la consola. Deberias ver algo similar a lo que se presenta en la siguiente imagen.
 
-![1700168317597](image/README/1700168317597.png)
+![1700168317597](image/1700168317597.png)
 
 ##### ¿Por qué el resultado no fue 2?
 
@@ -167,7 +167,7 @@ Paso 6:  Abre las herramientas de desarrollador en tu explorador `CTLR + SHIT + 
 
 Paso 7: Intenta sumar dos números y observa el resultado en la consola. Deberias ver algo similar a lo que se presenta en la siguiente imagen.
 
-![1700256361100](image/README/1700256361100.png)
+![1700256361100](image/1700256361100.png)
 
 ## Resumen
 
