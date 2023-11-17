@@ -1,4 +1,4 @@
-// const btnSum = document.querySelector("btnSum");
+// const btnSum = document.getElementById("btnSum");
 // const txtNum1 = document.getElementById("txtNum1");
 // const txtNum2 = document.getElementById("txtNum2");
 
@@ -8,4 +8,4 @@
 
 // btnSum.addEventListener("click", function() {
 //     console.log(sum(txtNum1.value, txtNum2.value));
-// });a
+// });
