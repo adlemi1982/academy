@@ -3,13 +3,27 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
+    "configurations": [        
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch Fire Fox against localhost",
+            "url": "http://localhost:3000",
+
+            // Complementar con la ruta de tu proyecto si es necesario 
+            // ej: "${workspaceFolder}/TypeScript/ejercicios/3.3 - TypeScript en detalle"
+            "webRoot": "${workspaceFolder}/TypeScript/ejercicios/3.3 - Arreglos en TypeScript"
+        },
         {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}"
+
+            // Complementar con la ruta de tu proyecto si es necesario 
+            // ej: "${workspaceFolder}/TypeScript/ejercicios/3.3 - TypeScript en detalle"
+            "webRoot": "${workspaceFolder}/TypeScript/ejercicios/3.3 - Arreglos en TypeScript"
         }
     ]
 }

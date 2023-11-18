@@ -12,10 +12,11 @@ El siguiente minicurso contempla los siguientes temas:
 * Instalación
 
   * Extensiones para VS Code.
-* Tipos base
-* Funciones
-* Clases & Interfaces
-* Genéricos
+* Induccion a TypeScript
+
+  * Beneficios
+  * Tipos base (number, string y boolean)
+  * Tipos complejos (Objetos, Arreglos, Enumeraciones yTuplas)
 
 ## #1 - INTRODUCCIÓN
 
@@ -72,7 +73,7 @@ Cada uno de los ejercicios esta pensado para abordar temas específicos y cumpli
 
 Los ejercicios y su código asociado representan el producto final, esto quiere decir que los archivos que ves en la carpeta ya están resueltos.
 
-La idea principal es que, a tu ritmo y entendimiento proppio, puedas seguir paso a paso las instrucciones que se detallan cada uno de los archivos **README.md** que se encuentran en cada una de las carpetas de los ejercicios. Esto con el fin de que puedas ir analizando y replicando cada una de las problemáticas que en estos se plantean. 
+La idea principal es que, a tu ritmo y entendimiento proppio, puedas seguir paso a paso las instrucciones que se detallan cada uno de los archivos **README.md** que se encuentran en cada una de las carpetas de los ejercicios. Esto con el fin de que puedas ir analizando y replicando cada una de las problemáticas que en estos se plantean.
 
 Se recomienda que **NO TRABAJES SOBRE ESTOS EJERCICIOS**, si no en otra carpeta de tu equipo para tengas tu propio espacio y libremente puedas replicar los ejercicios propuestos.
 
@@ -94,3 +95,13 @@ Se deben cumplir los siguientes objetivos:
 
 * Entender las principales razones por la cual TypeScript tiene una ventaja sobre JS nativo.
 * Entender los tipos de datos básicos que utiliza TypeScript y la sintaxis esencial.
+
+### # 3.3 - Arreglos en TypeScript
+
+En este ejercicio nos adentramos un poco mas en la extensa variedad de tipos que TypeScript nos permite utilizar. Vamos a usar los arreglos en TypeScript  para resolver una problemática muy commún.
+
+Se deben cumplir los siguientes objetivos:
+
+* Reforzar el conocimiento previo de los otros ejercicios.
+* Mostrar las configuraciones que se pueden hacer en el compilador de TypeScript.
+* Conocer y entender el manejo de arreglos en TypeScript.
