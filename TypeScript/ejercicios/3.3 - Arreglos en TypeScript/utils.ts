@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////
 
 function updateCounterTitle(): void{
-    divCounter.innerHTML = `Tu lista tiene ${taskList.length + 1} elementos`;    
+    divCounter.innerHTML = `Tu lista tiene ${taskList.length} elementos`;    
 }
 
 function clearTaskList(): void {
