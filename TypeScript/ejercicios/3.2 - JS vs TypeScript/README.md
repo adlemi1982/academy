@@ -4,7 +4,7 @@ En este ejercicio se ejemplifican las principales tipos de datos que tiene TypeS
 
 ## Objetivos
 
-Al completar este ejercicio tu deberas ser capas de:
+Al completar este ejercicio tu deberás ser capaz de:
 
 * Reforzar lo visto en el ejercicio anterior (3.1 - Simple TypeScript).
 * Entender los beneficios de Typescript.
@@ -30,13 +30,13 @@ Del ejercicio anterior, el cual puedes localizar bajo el siguiente nombre `3.1 -
 
 Su principal beneficio es que aquellos errores que se pudieran presentar en un código JS se puedan observar durante la fase de desarrollo y no durante la ejecución final, ya que esta situación potencialmente pudiera consumir valioso tiempo que serviría mejor durante el desarrollo.
 
-El siguiente ejercicios contiene dos archivos que a plena vista tiene un nombre muy similar. Veras que existe un arhivo llamado `main.js `y otro llamado `main.ts`. En escencia ambos archivos contienen la misma lógica pero expresada en función de su lenguaje, el primer archivo (`main.js`) contiene la lógica experada en términos de JavaScript mientras que el segundo archivo (`main.ts)` contiene la misma lógica pero expresada en términos de TypeScript.
+El siguiente ejercicio contiene dos archivos que a plena vista tiene un nombre muy similar. Veras que existe un arhivo llamado `main.js `y otro llamado `main.ts`. En esencia, ambos archivos contienen la misma lógica pero expresada en función de su lenguaje, el primer archivo (`main.js`) contiene la lógica expresada en términos de JavaScript mientras que el segundo archivo (`main.ts)` contiene la misma lógica pero expresada en términos de TypeScript.
 
-Sin embargo, encontraras tambien un tercer archivo llamado `app.js`, el cual representará nuestro archivo final y que estaremos incluyendo en nuestro proyecto web de referencia.
+Sin embargo, también encontrarás un tercer archivo llamado `app.js`, el cual representará nuestro archivo final y que estaremos incluyendo en nuestro proyecto web de referencia.
 
 Ejecuta los siguientes pasos:
 
-Paso 1 : Agrega dos archivo en blanco y nombralos como `main.js` y `main.ts`.
+Paso 1 : Agrega dos archivo en blanco y renómbralos respectivamente como  `main.js` y `main.ts`.
 
 Paso 3: Agrega un tercer archivo, `index.html` y agrega el siguiente contenido.
 
@@ -104,17 +104,17 @@ npm run start
 
 Paso 6:  Abre las herramientas de desarrollador en tu explorador `CTLR + SHIT + i `o `F12`.
 
-Paso 7: Intenta sumar dos números y observa el resultado en la consola. Deberias ver algo similar a lo que se presenta en la siguiente imagen.
+Paso 7: Intenta sumar dos números y observa el resultado en la consola. Deberías ver algo similar a lo que se presenta en la siguiente imagen.
 
 ![1700168317597](image/1700168317597.png)
 
 ##### ¿Por qué el resultado no fue 2?
 
-JS infiere de manera dinámica los tipos de datos a utilizar. Es entonces hasta la ejecución de nuestro código que JS conoce que los valores de las propiedades `value` obtenidos de los objetos `txtNum1 `y `txtNum2` son de tipo `string`. Esto significa que lo que en realidad estamos pasando a nuestra funcion `sum()` son cadenas de caracteres y por lo tanto el operador `+` ejecuta una concatenación de valores en lugar de una suma aritmética.
+JS infiere de manera dinámica los tipos de datos a utilizar. Es entonces hasta la ejecución de nuestro código que JS conoce que los valores de las propiedades `value` obtenidos de los objetos `txtNum1 `y `txtNum2` son de tipo `string`. Esto significa que lo que en realidad estamos pasando a nuestra función `sum()` son cadenas de caracteres y por lo tanto el operador `+` ejecuta una concatenación de valores en lugar de una suma aritmética.
 
-Aunque es un ejemplo sencillo y de antemano pudimos haber encontrado la solución de error ¿te das cuenta que es hasta la ejecución de nuestro programa que nos percatamos de este error?
+Aunque es un ejemplo sencillo y de antemano pudimos haber encontrado la solución de error ¿te das cuenta qué es hasta la ejecución de nuestro programa que nos percatamos de este error?
 
-Ahora imagina que tu proyecto es bastante grande y que el tiempo que inviertes para levantar y ejecutar un ambiente local es aproximadamente de unos 10 min y que para probar esa pantalla que estas modificando tienes que seguir una navegación del aplicativo bastante compleja, para que al final tu código no haga lo que debía por un error tan sencillo que se pudo preever desde el desarrollo.
+Ahora imagina que tu proyecto es bastante grande y que el tiempo que inviertes para levantar y ejecutar un ambiente local es aproximadamente de unos 10 min y que para probar esa pantalla que estas modificando tienes que seguir una navegación del aplicativo bastante compleja, para que al final tu código no haga lo que debía por un error tan sencillo que se pudo prever desde el desarrollo.
 
 Pues justo en este tipo de situaciones es donde TypeScript nos va ayudar *(no solucionar).*
 
@@ -124,7 +124,7 @@ Vamos a utilizar TypeScript para solucionar nuestro anterior problema.
 
 Ejecuta los siguientes pasos:
 
-Paso 1 : Comenta todas las lineas del archivo `main.js`.
+Paso 1 : Comenta todas las líneas del archivo `main.js`.
 
 Paso 3: Modifica el archivo `index.html` y actualiza el archivo script al que se hace referencia cambiando este actual valor por app.js.
 
@@ -171,6 +171,6 @@ Paso 7: Intenta sumar dos números y observa el resultado en la consola. Deberia
 
 ## Resumen
 
-En este ejercicio pudiste darte cuenta que gracias al fuerte tipado de TypeScript, nos permite darnos cuenta de posibles errores durante la fase de desarrollo y no hasta la ejecución final, ahorrando tiempo y promoviendo un mejor estilo de codificación.
+En este ejercicio pudiste darte cuenta de que gracias al fuerte tipado de TypeScript, nos permite darnos cuenta de posibles errores durante la fase de desarrollo y no hasta la ejecución final, ahorrando tiempo y promoviendo un mejor estilo de codificación.
 
-Te pudiste dar cuenta que un IDE como VSCode puede mejorar la experiencia de usuario al proporcioar ayuda visual referente al Typescript *(VSCode tambien esta desarrollado con Typescript).*
+Te pudiste dar cuenta que un IDE como VSCode puede mejorar la experiencia de usuario al proporcionar ayuda visual referente al Typescript *(VSCode tambien esta desarrollado con Typescript).*

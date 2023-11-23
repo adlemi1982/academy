@@ -1,14 +1,14 @@
 # Arreglos en TypeScript
 
-En este ejercicio nos adentramos un poco en los tipos de datos mas complejor de TypeScript para resolver una problemática muy commún demostrando varios de los conceptos que te ayudaran a aterrizar el desarrollo de aplicaciones utilizando este lenguaje.
+En este ejercicio nos adentramos un poco en los tipos de datos más complejos de TypeScript para resolver una problemática muy común demostrando varios de los conceptos que te ayudaran a aterrizar el desarrollo de aplicaciones utilizando este lenguaje.
 
 ## Objetivos
 
-Al completar este ejercicio tu deberas ser capas de:
+Al completar este ejercicio tu deberás ser capaz de:
 
 * Reforzar lo visto en el ejercicio inicial (3.1 - Simple TypeScript).
 * Mostrar las opciones de configuración de `tsc`.
-* Debbugear tu código TypeScript en VSCode.
+* *Debbugear* tu código TypeScript en VSCode.
 * Mostrar y entender los arreglos en Typescript.
 
 ## Instrucciones
@@ -17,7 +17,7 @@ El siguiente ejercicio plantea la siguiente problemática:
 
 ***¿Cómo hacer una lista de tareas sencilla en TypeScript?***
 
-Para resolver esta respuesta iremos desglosando cada uno de los objetivos antes planteados para dar una respuesta mas completa y enfocada a un nivel básico.
+Para resolver esta respuesta iremos desglosando cada uno de los objetivos antes planteados para dar una respuesta más completa y enfocada a un nivel básico.
 
 #### Objetivo 1: Reforzar lo visto en el ejercicio anterior (3.1 - Simple TypeScript)
 
@@ -61,9 +61,9 @@ tsc --watch
 
 Podras observar que en se crea una carpeta llamada `dist` y en ella se observa un archivo `main.js`, mismo que es el resultado de la compilación de ambos archivos `*.ts` y que es utilizado por el archivo `index.html` para ejecutar tu programa.
 
-Ahora, cada que ejecutes un cambio en tus archivos `*.ts` el compilador de TypeScript en automático recompilará todos los archivos y volverá a generar un nuveo archivo `main.js`.
+Ahora, cada que ejecutes un cambio en tus archivos `*.ts` el compilador de TypeScript en automático recompilará todos los archivos y volverá a generar un nuevo archivo `main.js`.
 
-#### Objetivo 3: Debbugear tu codigo TypeScript en VSCode
+#### Objetivo 3: Debbugear tu cádigo TypeScript en VSCode
 
 Ejecuta los siguientes pasos:
 
@@ -80,7 +80,7 @@ Paso 3: Valida que en tu archivo `tsconfig.json` existan las siguientes opciones
 "sourceMap": true
 ```
 
-Paso 4: Coloca un punto de ruptura en alguna línea de uno de tus archivo `*.ts`.
+Paso 4: Coloca un punto de ruptura en alguna línea de uno de tus archivos `*.ts`.
 
 Paso 5:  Da clic en el botón verde (play) desde la sección "Run & Debug".
 
@@ -121,7 +121,7 @@ Paso 1: Edita el archivo `index.html` y coloca el siguiente código.
         <div class="row">
             <h2>Tu lista de tareas</h2>
             <hr/><br/>
-            <div class="col-6">              
+            <div class="col-6">            
                 <div class="input-group">
                     <input id="txbTaskTitle" type="text" class="form-control" placeholder="Tu siguiente tarea">
                     <button class="btn btn-outline-primary" type="button" id="btnAddTask">Agregar</button>
@@ -136,7 +136,7 @@ Paso 1: Edita el archivo `index.html` y coloca el siguiente código.
                     <!-- Elementos agregados dinamicamente -->
                 </ul>
             </div>
-        </div>    
+        </div>  
     </div>
     <script src="dist/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -216,7 +216,7 @@ function addTaskToHtml(task: string): void {
 
         liNode.className = "list-group-item";
         liNode.appendChild(liText);
-        divResult.appendChild(liNode);      
+        divResult.appendChild(liNode);    
     }
 }
 

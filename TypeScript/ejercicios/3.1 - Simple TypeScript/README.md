@@ -1,10 +1,10 @@
 # Simple Typescript
 
-En este ejercicio se ejemplifica el uso básico de TypeScript dentro de un proyecto simplde de HTML5.
+En este ejercicio se ejemplifica el uso básico de TypeScript dentro de un proyecto simple de HTML5.
 
 ## Objetivos
 
-Al completar este ejercicio tu deberas ser capas de:
+Al completar este ejercicio tu deberás ser capaz de:
 
 * Validar que tienes instalado TypeScript.
 * Explicar que son los paquetes de NPM.
@@ -21,13 +21,13 @@ La respuesta corta es **SI**, y a continuación veremos cómo se puede aplicar T
 
 #### Objetivo 1: Validar que tienes instalado TypeScript
 
-Lo primero que se debemos hacer es validar que tenmos instalado TypeScript en nuestros equipos,de manera global, o en su defecto, validar que en tu proyecto tengas instalado esta dependencia.
+Lo primero que se debemos hacer es validar que tenemos instalado TypeScript en nuestros equipos, ya sea de manera global o local.
 
 Ejecuta los siguientes pasos:
 
-Paso 1: Crea una carpeta en algun lugar de tu sistema de archivos.
+Paso 1: Crea una carpeta en algún lugar de tu sistema de archivos.
 
-Paso 2 : Ejecua una instancia de VSCode y abre esta carpeta en tu IDE.
+Paso 2: Ejecuta una instancia de VSCode y abre esta carpeta en tu IDE.
 
 Paso 3: Dentro de VSCode abre una terminal.
 
@@ -37,9 +37,9 @@ Paso 3: Ejecuta el siguiente comando para validar que tengas TypeScript de maner
 tsc --version
 ```
 
-Si en tu consola te aparece un error similar al que ves en la siguiente imágen, significa que no tienes instalado de manera global TypeScript y para este punto tienes dos opciones *(tienes que escoger una)*:
+Si en tu consola te aparece un error similar al que ves en la siguiente imagen, significa que no tienes instalado de manera global TypeScript y para este punto tienes dos opciones *(tienes que escoger una)*:
 
-1. Instalar de manera globla TypeScript.
+1. Instalar de manera global TypeScript.
 2. Instalar TypeScript.
 
 ![1700075884619](image/README/1700075884619.png "TypeScript no instalado de manera global")
@@ -64,17 +64,17 @@ npx tsc --version
 
 #### Objetivo 2: Explicar que son los paquetes de NPM.
 
-Cualquier proyecto que utilice el gestor de paquets **npm** de manera directa o indirecta, se considera un *package* que  pudiera o no, ser publicado en un repositio de paquetes como [npmjs](https://www.npmjs.com/).
+Cualquier proyecto que utilice el gestor de paquetes **npm** de manera directa o indirecta, se considera un *package* que pudiera o no, ser publicado en un repositorio de paquetes como [npmjs](https://www.npmjs.com/).
 
 npm es el mayor repositorio de software del mundo. Los desarrolladores OpenSource de cualquier continente usan npm para compartir piezas de código en forma de paquete que pudieran ser de ámbito público o privado.
 
-npm consiste de tres componente principales:
+npm consiste de tres componentes principales:
 
 * Portal web.
 * CLI *(command line interface).*
 * Repositorio.
 
-A continuación veremos como usar npm para configurar un pequeño proyecto de npm.
+A continuación, veremos cómo usar npm para configurar un pequeño proyecto de npm.
 
 Ejecuta los siguientes pasos:
 
@@ -117,7 +117,7 @@ Paso 4:  Agrega a la raíz de tu carpeta un nuevo archivo llamado `index.html` y
     <div class="container">
         <div class="row">
             <H1>Hello World!!!</H1>
-        </div>    
+        </div>  
     </div>
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -133,8 +133,6 @@ Paso 5:  Agrega a la raíz de tu carpeta un nuevo archivo llamado `main.ts` y ag
 ```typescript
 console.log("Helo World from TypeScript!!!!");
 ```
-
-
 
 #### Objetivo 3: Utilizar la línea de comando de TypScript.
 
@@ -154,11 +152,9 @@ Paso 3: Hasta es punto deberías ver en tu terminal una salida como la que se mu
 
 ![1700084027393](image/README/1700084027393.png)
 
-
 #### Objetivo 4: Aplicar TypeScript a un proyecto simple de HTML5.
 
 Paso 1: Finalmente, en tu explorador deberías poder ver la url `http://localhost:3000/` mostrando el siguiente contenido.
-
 
 ![1700084268111](image/README/1700084268111.png)
 
