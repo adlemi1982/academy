@@ -3,9 +3,9 @@
     /* Visit https://aka.ms/tsconfig to read more about this file */
     "target": "ES2022",
     "lib": ["ES2022", "DOM"],
-    "module": "System",
+    "module": "ES2022",
     "rootDir": "./src",
-    "outFile": "dist/main.js",
+    "outDir": "dist/",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,

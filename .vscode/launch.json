@@ -23,7 +23,7 @@
 
             // Complementar con la ruta de tu proyecto si es necesario 
             // ej: "${workspaceFolder}/TypeScript/ejercicios/3.3 - TypeScript en detalle"
-            "webRoot": "${workspaceFolder}/TypeScript/ejercicios/3.4 - POO"
+            "webRoot": "${workspaceFolder}/TypeScript/ejercicios/3.4 - POO/"
         }
     ]
 }
