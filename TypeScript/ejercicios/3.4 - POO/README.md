@@ -9,15 +9,15 @@ Al completar este ejercicio tu deberás ser capaz de:
 * Reforzar lo visto en el ejercicio inicial (3.3 - Arreglos).
 * Comprender los conceptos de la POO.
 * Utilizar clases.
-* Utilizar interfaces.
 * Entender el uso de los modificadores de acceso.
-* Entender el uso de herencia y polimorfismo.
+* Entender el uso de herencia.
+* Reforzar los tipos de datos base y algunos otros mas avanzados.
 
 ## Instrucciones
 
 El siguiente ejercicio plantea la siguiente problemática:
 
-***¿Cómo hacer la misma lista de tareas pero ahora con POO?***
+***¿Cómo hacer la misma lista de tareas pero ahora en términos de la POO?***
 
 Para resolver esta respuesta iremos desglosando cada uno de los objetivos antes planteados para dar una respuesta más completa y enfocada a un nivel básico.
 
@@ -28,13 +28,9 @@ Este pequeño proyecto contempla las siguientes funcionalidades:
 1. Existe un formulario de registro para agregar una tarea con los siguientes campos.
    * Ttítulo, descripción y prioridad.
 2. Existe un botón para salvar temporalmente la tarea en la lista.
-   * Se debe activar cuando existan todos los campos.
-   * Se debe desactivar cuando falte alguno de los campos.
-3. Existe un panel lateral que va mostrando las tareas agregadas.
-   * Este panel contiene un botón que permite mostrar u ocultar el contenido de la lista.
-   * El texto de este botón cambia conforme a la operación necesaria.
-   * El panel siempre muestra la lista ordenada por prioridad descendentemente.
-4. Cada tarea contiene un botón que permite la eliminación de esta tarea en el panel.
+3. Existe un botón para limpiar el formulario.
+4. Existe un panel lateral que va mostrando las tareas agregadas.
+5. Cada tarea contiene un botón que permite su eliminación del panel.
 
 IMAGEN!!!!!!
 
@@ -45,6 +41,15 @@ Ejecuta los siguientes pasos:
 Paso 1: Configura tu entorno de trabajo como en el ejercicio inicial, llamado `3.3 - Arreglos`.
 
 #### Objetivo 2: Comprender los conceptos de la POO
+
+En esta documentación no abordaremos la teoría de la POO si no que daremos práctica a dichos conceptos, A continuación te dejo un link en donde puedes explorar mas a detalle por tu cuenta.
+
+Paso 1:  Abre un explorador y  consulta la siguiente información.
+
+[
+    Object-oriented programming - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming)
+
+A continuación haremos un análisis detallado de la solución que ya esta implementada en este repositorio, te invito a que por tu propia cuenta re-escribas por completo este ejercicio para que tengas aprendizame más profundo y personal.
 
 
 ## Resumen
